@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Loja DevClub – Interface Profissional</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <h1 class="logo">Loja DevClub</h1>
+
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#contatos">Contato</a></li>
+      </ul>
+    </nav>
+
+    <button id="themeToggle">🌙</button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <h2 class="hero-title">Loja DevClub</h2>
+    <p class="hero-sub">
+    A Loja DevClub reúne uma seleção de produtos de tecnologia pensados para quem busca inovação,
+    qualidade e desempenho no dia a dia. Aqui você encontra dispositivos modernos, design premium
+    e funcionalidades que elevam sua experiência, desde acessórios inteligentes até soluções
+    avançadas para produtividade e entretenimento.
+    </p>
+
+    <a href="#produtos" class="btn">Explorar Produtos</a>
+  </section>
+
+  <!-- TÍTULO -->
+  <h2 class="section-title">Produtos em Destaque</h2>
+
+  <!-- SLIDER -->
+  <section class="produtos" id="produtos">
+
+    <div class="slider-container">
+
+      <button class="nav-btn" id="prev">‹</button>
+
+      <div class="slider-window">
+        <div class="slider-track" id="cardSlider">
+
+          <!-- CARD 1 -->
+          <article class="card">
+            <img src="imagens/apple-watch.png" class="card-img" alt="Apple Watch Series 10" />
+            <div class="card-content">
+              <h3>Apple Watch Series 10</h3>
+              <p>Tela maior, sensores precisos e design moderno.</p>
+              <ul class="details">
+                <li>✔ Tela OLED 2.0</li>
+                <li>✔ Monitoramento de saúde</li>
+                <li>✔ Chip S10 30% mais rápido</li>
+                <li>✔ Até 2 dias de bateria</li>
+                <li>✔ Design ultrafino</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- CARD 2 -->
+          <article class="card">
+            <img src="imagens/air-pods.png" class="card-img" alt="AirPods Max" />
+            <div class="card-content">
+              <h3>AirPods Max</h3>
+              <p>Som espacial, cancelamento ativo e acabamento premium.</p>
+              <ul class="details">
+                <li>✔ Áudio Espacial avançado</li>
+                <li>✔ Cancelamento de ruído</li>
+                <li>✔ Drivers personalizados</li>
+                <li>✔ Acabamento em alumínio</li>
+                <li>✔ Modo Transparência</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- CARD 3 -->
+          <article class="card">
+            <img src="imagens/vision-pro.png" class="card-img" alt="Apple Vision Pro" />
+            <div class="card-content">
+              <h3>Apple Vision Pro</h3>
+              <p>Realidade aumentada com interação natural e imersiva.</p>
+              <ul class="details">
+                <li>✔ Experiência espacial</li>
+                <li>✔ Controle por olhos e gestos</li>
+                <li>✔ Display micro-OLED</li>
+                <li>✔ Chip M2 + R1</li>
+                <li>✔ Apps 3D e multitarefa</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <button class="nav-btn" id="next">›</button>
+
+    </div>
+
+    <div class="dots" id="dots"></div>
+
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contatos" id="contatos">
+    <h2>Contato</h2>
+
+    <div class="contatos-links">
+      <a href="https://wa.me/5516997135203" target="_blank">WhatsApp</a>
+      <a href="mailto:natalia.pastre@yahoo.com.br">E-mail</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    © 2025 | Desenvolvido por <strong>Natália Pastre</strong>
+  </footer>
+
+  <!-- JS -->
+  <script src="scripts.js"></script>
+</body>
+</html>

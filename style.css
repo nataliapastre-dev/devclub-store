@@ -1,0 +1,250 @@
+/* =======================
+   BASE
+======================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, Arial, sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+  overflow-x: hidden;
+  padding-bottom: 40px;
+}
+
+/* =======================
+   HEADER
+======================= */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 28px;
+  background: #161b22;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.4);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #00eaff;
+}
+
+.nav-list {
+  display: flex;
+  gap: 22px;
+  list-style: none;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #cdd9e5;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.nav-list a:hover {
+  color: #00eaff;
+}
+
+#themeToggle {
+  background: #21262d;
+  border: none;
+  color: #00eaff;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* =======================
+   HERO
+======================= */
+.hero {
+  text-align: center;
+  padding: 70px 20px 50px;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 14px;
+  color: #fff;
+}
+
+.hero-sub {
+  color: #9fb2c7;
+  max-width: 780px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.55;
+  margin-bottom: 25px;
+}
+
+.btn {
+  padding: 12px 20px;
+  background: #00eaff;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #001;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  filter: brightness(1.12);
+}
+
+/* =======================
+   TÍTULO
+======================= */
+.section-title {
+  text-align: center;
+  margin: 20px 0;
+  color: #00eaff;
+  font-size: 1.7rem;
+}
+
+/* =======================
+   SLIDER
+======================= */
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+/* Corrigido: remove linhas indesejadas */
+.slider-window,
+.slider-track,
+.slider-container {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  background: transparent !important;
+}
+
+/* Área que mostra o slide */
+.slider-window {
+  width: 820px;
+  overflow: hidden;
+}
+
+/* Linha que desliza */
+.slider-track {
+  display: flex;
+  gap: 0 !important; /* IMPORTANTÍSSIMO para remover a linha lateral */
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Botões */
+.nav-btn {
+  background: #21262d;
+  border: none;
+  color: #00eaff;
+  font-size: 2rem;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* =======================
+   CARD
+======================= */
+.card {
+  min-width: 100%;
+  background: #161b22;
+  border-radius: 12px;
+  padding: 22px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  border: none; /* remove borda que causava a linha */
+}
+
+.card-img {
+  width: 42%;
+  border-radius: 12px;
+}
+
+.card-content h3 {
+  font-size: 1.35rem;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  color: #9aa6b2;
+  margin-bottom: 12px;
+}
+
+.details {
+  list-style: none;
+  color: #cdd9e5;
+  font-size: 0.95rem;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* =======================
+   DOTS
+======================= */
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+  gap: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background: #30363d;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #00eaff;
+}
+
+/* =======================
+   CONTATOS
+======================= */
+.contatos {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contatos-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.contatos-links a {
+  padding: 12px 16px;
+  background: #21262d;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #e6edf3;
+  border: 1px solid #30363d;
+}
+
+/* =======================
+   FOOTER
+======================= */
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #9aa6b2;
+}
