@@ -1,11 +1,8 @@
 # 🛒 Loja DevClub  
 
 
-
 ## 📸 Amostra do Projeto  
 <img src="https://i.postimg.cc/501XwjBP/Chat-GPT-Image-16-de-nov-de-2025-12-08-42.png" width="550">
-
-
 
 
 ---
