@@ -1,8 +1,8 @@
 # 🛒 Loja DevClub  
 
+## 📸 Demonstração
+<img src="https://i.postimg.cc/cCgJz7kD/Chat-GPT-Image-16-de-nov-de-2025-18-59-10.png" width="550">
 
-## 📸  Demonstração
-<img src="https://i.postimg.cc/501XwjBP/Chat-GPT-Image-16-de-nov-de-2025-12-08-42.png" width="550">
 
 
 ---
