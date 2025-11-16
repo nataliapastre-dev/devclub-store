@@ -7,7 +7,8 @@
 
 ---
   
-🔗 https://nataliapastre-dev.github.io/devclub-store/
+🔗 **Acesse o projeto:** https://nataliapastre-dev.github.io/devclub-store/
+
 
 ---
 
